@@ -6,7 +6,9 @@
     "version": "3.7.1"
   },
   "dependencies": {
+    "boom": "^7.2.0",
     "gulp-sass": "^4.0.1",
+    "hawk": "^7.0.7",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
@@ -16,11 +18,13 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-server": "^0.2.0",
+    "sntp": "^3.0.1"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-exec": "^3.0.2",
+    "npm-check-updates": "^2.14.2",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0",
     "webpack-stream": "^5.0.0"
